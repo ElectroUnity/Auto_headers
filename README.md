@@ -4,12 +4,15 @@ It's ElectroUnity, not European Union!
 非常简单的小模块，主要是本人懒得写headers搞的，没什么技术含量。
 
 使用了fake_useragent这个库，别忘了装。
+```
+pip install fake_useragent
+```
 
 主要使用方法：
 ```
-import headers
+import auto_headers
 
-headers = headers.create_headers()
+headers = auto_headers.create_headers()
 ```
 会自动返回一个假UA（随机，每次都不一样）：
 ```
