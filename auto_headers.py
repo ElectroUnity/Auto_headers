@@ -1,4 +1,5 @@
-"""Author: ElectroUnity
+"""
+Author: ElectroUnity
 Date: Who cares?
 """
 from fake_useragent import UserAgent
